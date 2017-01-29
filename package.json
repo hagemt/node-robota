@@ -1,0 +1,36 @@
+{
+  "name": "ciscospark-bff",
+  "version": "0.1.0",
+  "description": "Cisco Spark's BFF: Bot Framework For...? (w/e)",
+  "license": "MIT",
+  "homepage": "https://github.com/hagemt/node-ciscospark-bff#readme",
+  "author": "Tor E Hagemann <tor.hagemann@gmail.com>",
+  "bugs": {
+    "url": "https://github.com/hagemt/node-ciscospark-bff/issues"
+  },
+  "dependencies": {
+    "bunyan": "1.8.5",
+    "co-body": "4.2.0",
+    "lodash": "4.17.4",
+    "request": "2.79.0"
+  },
+  "devDependencies": {
+    "eslint": "^3",
+    "mocha": "^3",
+    "ngrok": "^2",
+    "nyc": "^10"
+  },
+  "keywords": [
+    "Cisco",
+    "Spark",
+    "Bot",
+    "Framework"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hagemt/node-ciscospark-bff.git"
+  },
+  "scripts": {
+    "test": "nyc mocha"
+  }
+}
