@@ -1,0 +1,15 @@
+// values set on process.env before requre('config') will load as follows:
+{
+	spark: {
+		credentials: {
+			access_token: 'CISCOSPARK_ACCESS_TOKEN',
+		},
+		webhook: {
+			name: 'CISCOSPARK_WEBHOOK_NAME',
+			secret: 'CISCOSPARK_WEBHOOK_SECRET',
+		},
+	},
+	server: {
+		port: 'PORT',
+	},
+}

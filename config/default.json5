@@ -1,0 +1,11 @@
+// copy this file to local.json5 (and fill in Spark credentials/webhook)
+// alternatively, use config's custom-environment-variables.json5 mechanism
+{
+	spark: {
+		credentials: null,
+		webhook: null,
+	},
+	server: {
+		port: 8080,
+	},
+}
